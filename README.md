@@ -1,2 +1,2 @@
-# Lazy NLP
-I wrote reusable pipelines to build NLP models for myself. 
+## A Public repo for Private use!
+I wrote myself reusable pipelines to build NLP models. 
