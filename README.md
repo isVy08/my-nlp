@@ -1,10 +1,10 @@
 ## A Public repo for Private use!
 I wrote myself reusable codes for building NLP models. 
 
-## `data`
+### `data`
 * 1,117 IELTS essays with scores
 
-## `cbow`
+### `cbow`
 Continuous Bag-of-Words from scratch with Numpy + math notes.
 
 ### `lexical-chains`
