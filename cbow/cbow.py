@@ -106,7 +106,7 @@ def backward_propagation(parameters, gradients, learning_rate):
     parameters['V'] -= learning_rate * gradients[1]
     
 
-def cbow_stochastic_training(tokens, emb_size, window_size, epochs, learning_rate, print_loss=False, plot_loss=False):
+def train(tokens, emb_size, window_size, epochs, learning_rate, print_loss=False, plot_loss=False):
     N = len(tokens) # vocab size
     X, Y = generate_training_data(N, window_size)
     V, U = init_weights(N, emb_size)
@@ -139,7 +139,7 @@ def cbow_stochastic_training(tokens, emb_size, window_size, epochs, learning_rat
         
     return X, Y, parameters['V'], parameters['U']
 
-def model_evaluation(tokens, X, Y, V, U, k):
+def evaluate(tokens, X, Y, V, U, k):
     """
     Output target words of chosen sets of context words
     
@@ -179,8 +179,8 @@ if __name__ == "__main__":
     learning_rate = 0.05    # learning rate
     k = 5
 
-    X, Y, V, U = cbow_stochastic_training(tokens, emb_size, window_size, epochs, learning_rate)
-    model_evaluation(tokens, X, Y, V, U, k)
+    X, Y, V, U = train(tokens, emb_size, window_size, epochs, learning_rate)
+    evaluate(tokens, X, Y, V, U, k)
 
 
 
