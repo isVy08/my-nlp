@@ -2,9 +2,6 @@
 I wrote myself reusable codes for building NLP models.
 (and for fun sometimes) 
 
-### `data`
-* 1,117 IELTS essays with scores
-
 ### `cbow`
 Continuous Bag-of-Words from scratch with Numpy + math notes.
 
@@ -16,3 +13,5 @@ Train a Seq2Seq transformer with customized tokenizers
 ```
 python main.py config.json
 ```
+### `data` (misc)
+* 1,117 IELTS essays with scores
