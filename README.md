@@ -1,5 +1,6 @@
 ## A Public repo for Private use!
-I wrote myself reusable codes for building NLP models. 
+I wrote myself reusable codes for building NLP models.
+(some are just for fun) 
 
 ### `data`
 * 1,117 IELTS essays with scores
