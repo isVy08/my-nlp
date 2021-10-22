@@ -1,6 +1,5 @@
 ## A Public repo for Private use!
-I wrote myself reusable codes for building NLP models.
-(and sometimes for fun) 
+I simply do these for fun.
 
 ### `cbow`
 Continuous Bag-of-Words from scratch with Numpy + math notes.
@@ -13,5 +12,5 @@ Train a Seq2Seq transformer with customized tokenizers
 ```
 python main.py config.json
 ```
-### `data` (misc)
+### `data`
 * 1,117 IELTS essays with scores
