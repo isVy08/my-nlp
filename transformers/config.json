@@ -1,0 +1,24 @@
+{
+
+    "dataset_path": ["data/train_source", "data/train_target", "data/val_source", "data/val_target"],
+    "input_path": ["data/train_input", "data/val_input"],
+    "model_path": "mwe_transformer.pt",
+    "tokenizer_path": "tokenizer.json",
+    "tokenizer_type": "char",
+    "vocab_size": 50000,
+    "min_frequency": 5,
+
+    "EMB_SIZE": 512,
+    "NHEAD": 8, 
+    "FFN_HID_DIM": 512,
+    "NUM_ENCODER_LAYERS":  3,
+    "NUM_DECODER_LAYERS": 3,
+    "DROPOUT": 0.3,
+    "DEVICE": "cuda:2",
+
+    "lr": 0.0001, 
+    "eps": 1e-9,
+    "epochs": 10,
+    "data_fraction": 1.0,
+    "batch_size": 100
+}
