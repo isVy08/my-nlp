@@ -1,6 +1,6 @@
 ## A Public repo for Private use!
 I wrote myself reusable codes for building NLP models.
-(and for fun sometimes) 
+(and sometimes for fun) 
 
 ### `cbow`
 Continuous Bag-of-Words from scratch with Numpy + math notes.
