@@ -12,5 +12,3 @@ Train a Seq2Seq transformer with customized tokenizers
 ```
 python main.py config.json
 ```
-### `data`
-* 1,117 IELTS essays with scores
